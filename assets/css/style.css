@@ -30,4 +30,25 @@ body {
   padding-bottom: 4rem;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 20px;
+  position: relative;
+}
 
+.Finn {
+background-color: gold;
+color: black;
+display: flex; 
+padding: 20px;
+margin: 10px;
+max-width:fit-content;
+text-transform: uppercase;
+}
+
+nav a {
+color: gold;
+}

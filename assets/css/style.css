@@ -43,12 +43,34 @@ header {
 background-color: gold;
 color: black;
 display: flex; 
-padding: 20px;
+padding: 5px;
 margin: 10px;
 max-width:fit-content;
 text-transform: uppercase;
+border-radius: 10px;
 }
 
-nav a {
-color: gold;
+nav {
+
 }
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+color: gold;
+display: block;
+font-family:sans-serif;
+font-weight: bold;
+text-decoration: none;
+float: right;
+text-align: center;
+padding: 10px;
+align-self: row-reverse;
+}
+
+nav ul li a:hover {
+  
+}
+

@@ -34,14 +34,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+  background: var(--dark);
   padding: 20px;
   position: relative;
+  box-shadow: var(--glow);
 }
 
 .Finn {
-background-color: gold;
-color: black;
+background-color: var(--accent);
+color: var(--dark);
 display: flex; 
 padding: 5px;
 margin: 10px;
@@ -50,27 +51,96 @@ text-transform: uppercase;
 border-radius: 10px;
 }
 
-nav {
-
+nav ul{
+display: flex;
 }
 
 nav ul li {
-  float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
 }
 
 nav ul li a {
-color: gold;
-display: block;
+color: var(--accent);
 font-family:sans-serif;
 font-weight: bold;
 text-decoration: none;
-float: right;
 text-align: center;
 padding: 10px;
-align-self: row-reverse;
+flex-direction: row-reverse;
+
+
 }
 
 nav ul li a:hover {
+  background-color: var(--accent);
+  text-emphasis:var(--glow);
+  color: var(--dark);
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.flamekeeper_bio p {
+padding: 10px;
+}
+
+.Finn_pic  {
+  display: flex;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 100px;
+  text-align: justify;
+  column-span: none;
   
 }
+
+
+.name {
+text-align: center;
+}
+
+.name_title {
+  text-align: end;
+}
+
+.yellow_break_line {
+  background-color: var(--accent);
+  width: 2px;
+  height: 30px;
+  margin: 5px;
+  border: solid;
+  border-color: var(--accent);
+}
+
+.footer {
+  text-transform: uppercase;
+  float: left;
+  padding: 15px;
+}
+
+.info_area {
+display: flex;
+
+
+}
+
+.info_card {
+display: inline-flex;
+justify-content: space-evenly;
+border-style: solid;
+border-width: 1px;
+list-style-type: none;
+border-radius: 5px;
+margin: 5px;
+padding: 10px;
+font-style: italic;
+border-color: var(--accent);
+background-color: var(--accent);
+color: var(--dark);
+}
+
+
 

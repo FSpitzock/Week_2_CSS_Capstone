@@ -81,29 +81,35 @@ nav ul li a:hover {
   margin: 5px;
 }
 
-.flamekeeper_bio p {
-padding: 10px;
+.flex-container {
+  display: flex; 
+  
 }
 
-.Finn_pic  {
-  display: flex;
-  padding: 10px;
+.Finn_image_details img {
+  width: 200px; 
   height: 200px;
-  width: 200px;
-  float: left;
+}
+
+
+.Finn_image_details {
+  padding: 10px;
+  text-align: center;
+  width: 230px;
   margin: 100px;
-  text-align: justify;
-  column-span: none;
   
 }
 
 
-.name {
-text-align: center;
+.flamekeeper_bio {
+
+
 }
 
-.name_title {
-  text-align: end;
+.flamekeeper_bio p {
+padding: 10px;
+
+
 }
 
 .yellow_break_line {

@@ -81,6 +81,11 @@ nav ul li a:hover {
   margin: 5px;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .flex-container {
   display: flex;
 
@@ -114,23 +119,30 @@ nav ul li a:hover {
 }
 
 .runes-container {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .runes-container .power {
-  float: left;
+ 
   padding: 15px;
   margin: 50px;
+  min-height: 400px;
 }
 
 .runes-container h3 {
   text-transform: uppercase;
 }
 
+
+
 .runes-container .images {
-  width: 250px;
-  height: 100px;
+   max-height: 100px;
   overflow: hidden;
+  margin: 10px;
+  min-width: 300px;
+  max-width: 100%;
+  flex: 1 0 0;
 }
 
 .runes-container img {
@@ -138,10 +150,12 @@ nav ul li a:hover {
   object-position: center;
   width: 100%;
   height: 100%;
-
   border-radius: 5px;
-  border-color: var(--accent);
-  border: solid;
+  border: 3px solid var(--accent);
+}
+
+.runes-container img:hover {
+transform: scale(90%);
 }
 
 .directions-container {
@@ -204,3 +218,20 @@ nav ul li a:hover {
   background-color: var(--accent);
   color: var(--dark);
 }
+
+.info_card:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info_card:active {
+  color: var(--accent);
+  background-color: var(--dark);
+  border-color: var(--dark);
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}

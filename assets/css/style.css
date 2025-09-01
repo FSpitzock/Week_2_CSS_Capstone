@@ -111,34 +111,54 @@ margin: 50px;
 
 .flamekeeper_bio p {
 padding: 10px;
-
-
 }
+
+.directions {
+  display: flex;
+}
+
+.directions h4 {
+    float: left;
+  padding: 15px;
+  margin: 50px;
+}
+
+.directions p {
+    float: right;
+  padding: 15px;
+  margin: 50px;
+}
+
+.footer-flex-container {
+  display: flex;
+  margin: 15px;
+}
+
+
+.raven {
+  text-transform: uppercase;
+  float: left;
+  padding: 15px;
+  margin: 50px;
+}
+
+
 
 .yellow_break_line {
   background-color: var(--accent);
   width: 2px;
-  height: 30px;
-  margin: 5px;
+  height: auto;
+  margin: 15px;
   border: solid;
   border-color: var(--accent);
-}
-
-.footer {
-  text-transform: uppercase;
-  float: left;
-  padding: 15px;
+  padding: 1px;
 }
 
 .info_area {
-display: flex;
 
-
-}
-
+  }
 .info_card {
 display: inline-flex;
-justify-content: space-evenly;
 border-style: solid;
 border-width: 1px;
 list-style-type: none;

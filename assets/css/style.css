@@ -95,14 +95,17 @@ nav ul li a:hover {
 .Finn_image_details {
   padding: 10px;
   text-align: center;
-  width: 230px;
-  margin: 100px;
+  width: auto;
+  margin: 50px 200px 50px 200px;
   
 }
 
+.Finn_image_details p {
+white-space: nowrap;
+}
 
 .flamekeeper_bio {
-
+margin: 50px;
 
 }
 

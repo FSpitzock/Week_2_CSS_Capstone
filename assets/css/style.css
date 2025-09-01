@@ -113,6 +113,14 @@ margin: 50px;
 padding: 10px;
 }
 
+.runes-container {
+  display: flex;
+}
+
+.runes-container h3 {
+  text-transform: uppercase;
+}
+
 .directions {
   display: flex;
 }
